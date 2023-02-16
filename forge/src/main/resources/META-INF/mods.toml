@@ -4,30 +4,30 @@ loaderVersion = "[${forge_version},)"
 license = "Insert License Here"
 
 [[mods]]
-modId = "examplemod"
+modId = "davebuildingmod"
 version = "${version}"
-displayName = "Example Mod"
-authors = "Me!"
+displayName = "Dave's Building Extended"
+authors = "SpaceDave, Rabbitminers"
 description = '''
 This is an example description! Tell everyone what your mod is about!
 '''
 logoFile = "icon.png"
 
-[[dependencies.examplemod]]
+[[dependencies.davebuildingmod]]
 modId = "forge"
 mandatory = true
 versionRange = "[${forge_version},)"
 ordering = "NONE"
 side = "BOTH"
 
-[[dependencies.examplemod]]
+[[dependencies.davebuildingmod]]
 modId = "minecraft"
 mandatory = true
 versionRange = "${minecraft_version}"
 ordering = "NONE"
 side = "BOTH"
 
-[[dependencies.examplemod]]
+[[dependencies.davebuildingmod]]
 modId="create"
 mandatory=true
 versionRange="${create_version}"

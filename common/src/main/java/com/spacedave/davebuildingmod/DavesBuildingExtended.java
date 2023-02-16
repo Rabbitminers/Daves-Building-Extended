@@ -1,12 +1,12 @@
-package net.examplemod;
+package com.spacedave.davebuildingmod;
 
 import com.simibubi.create.Create;
 import net.minecraft.resources.ResourceLocation;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-public class ExampleMod {
-    public static final String MOD_ID = "examplemod";
+public class DavesBuildingExtended {
+    public static final String MOD_ID = "davebuildingmod";
     public static final String NAME = "Example Mod";
     public static final Logger LOGGER = LoggerFactory.getLogger(NAME);
 

@@ -1,11 +1,12 @@
 {
   "schemaVersion": 1,
-  "id": "examplemod",
+  "id": "davebuildingmod",
   "version": "${version}",
-  "name": "Example Mod",
+  "name": "Dave's Building Extended",
   "description": "This is an example description! Tell everyone what your mod is about!",
   "authors": [
-    "Me!"
+    "SpaceDave",
+    "Rabbitminers"
   ],
   "contact": {
     "homepage": "https://fabricmc.net/",
@@ -16,7 +17,7 @@
   "environment": "*",
   "entrypoints": {
     "main": [
-      "net.examplemod.fabric.ExampleModFabric"
+      "com.spacedave.davebuildingmod.fabric.DavesBuildingExtendedFabric"
     ]
   },
   "mixins": [

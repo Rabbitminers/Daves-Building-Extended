@@ -1,4 +1,4 @@
-package net.examplemod.fabric;
+package com.spacedave.davebuildingmod.fabric;
 
 import net.fabricmc.loader.api.FabricLoader;
 

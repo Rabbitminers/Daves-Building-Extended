@@ -1,4 +1,4 @@
-package net.examplemod;
+package com.spacedave.davebuildingmod;
 
 import dev.architectury.injectables.annotations.ExpectPlatform;
 
