@@ -4,9 +4,10 @@
   "package": "com.spacedave.davebuildingmod.mixin",
   "compatibilityLevel": "JAVA_17",
   "client": [
-    "MixinTitleScreen"
+
   ],
   "mixins": [
+
   ],
   "injectors": {
     "defaultRequire": 1
