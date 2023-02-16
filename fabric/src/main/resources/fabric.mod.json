@@ -17,7 +17,7 @@
   "environment": "*",
   "entrypoints": {
     "main": [
-      "com.spacedave.davebuildingmod.fabric.DavesBuildingExtendedFabric"
+      "com.spacedave.davebuildingmod.fabric.DavesBuildingExtendedImpl"
     ]
   },
   "mixins": [
