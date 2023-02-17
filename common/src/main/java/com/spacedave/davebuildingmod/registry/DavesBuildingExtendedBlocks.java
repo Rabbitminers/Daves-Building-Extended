@@ -6,7 +6,7 @@ import com.simibubi.create.foundation.data.CreateRegistrate;
 import com.simibubi.create.foundation.data.SharedProperties;
 import com.simibubi.create.foundation.data.TagGen;
 import com.spacedave.davebuildingmod.DavesBuildingExtended;
-import com.spacedave.davebuildingmod.content.boiler.BoilerBlock;
+import com.spacedave.davebuildingmod.content.blocks.boiler.BoilerBlock;
 import com.tterrag.registrate.util.entry.BlockEntry;
 import dev.architectury.injectables.annotations.ExpectPlatform;
 import net.minecraft.tags.TagKey;
@@ -19,9 +19,6 @@ public class DavesBuildingExtendedBlocks {
 	private static final CreateRegistrate REGISTRATE = DavesBuildingExtended.registrate().creativeModeTab(
 			() -> DavesBuildingExtendedItems.itemGroup
 	);
-	public static final BlockEntry<Block> EXAMPLE_BLOCK = REGISTRATE.block("example_block", Block::new)
-			.onRegister(e -> System.out.println("Registered Example Block!")).register();
-
 	public static final DyedBlockList<BoilerBlock> BOILERS = new DyedBlockList<>(colour -> {
 		String colourName = colour.getSerializedName();
 		return REGISTRATE.block(colourName + "_boiler", p -> BoilerBlock.plain(p, colour))

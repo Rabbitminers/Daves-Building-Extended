@@ -1,4 +1,4 @@
-package com.spacedave.davebuildingmod.content.boiler;
+package com.spacedave.davebuildingmod.content.blocks.boiler;
 
 import net.minecraft.world.item.DyeColor;
 import net.minecraft.world.level.block.RotatedPillarBlock;
