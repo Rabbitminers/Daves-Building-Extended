@@ -10,6 +10,7 @@ public class DavesBuildingExtendedImpl implements ModInitializer {
     }
 
     public static void finalizeRegistrate() {
+        DavesBuildingExtended.LOGGER.info("Finalised Registrate");
         DavesBuildingExtended.registrate().register();
     }
 }

@@ -23,8 +23,8 @@ public class DavesBuildingExtended {
     }
 
     public static void setup() {
-        DavesBuildingExtendedBlocks.init();
-        DavesBuildingExtendedItems.init();
+        DavesBuildingExtendedBlocks.register();
+        DavesBuildingExtendedItems.register();
     }
 
     public static ResourceLocation id(String path) {

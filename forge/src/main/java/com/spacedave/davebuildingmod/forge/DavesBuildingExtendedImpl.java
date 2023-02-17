@@ -15,6 +15,7 @@ public class DavesBuildingExtendedImpl {
     }
 
     public static void finalizeRegistrate() {
+        DavesBuildingExtended.LOGGER.info("Finalised Registrate");
         DavesBuildingExtended.registrate().registerEventListeners(bus);
     }
 }

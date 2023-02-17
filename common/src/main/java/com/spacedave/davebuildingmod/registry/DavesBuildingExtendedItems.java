@@ -24,7 +24,7 @@ public class DavesBuildingExtendedItems {
     }
 
     @SuppressWarnings("EmptyMethod")
-    public static void init() {
+    public static void register() {
         DavesBuildingExtended.LOGGER.info("Registering items for " + DavesBuildingExtended.NAME);
     }
 }
