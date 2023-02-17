@@ -68,13 +68,16 @@ dependencies {
     // Create - dependencies are added transitively
     modImplementation("com.simibubi.create:create-fabric-${minecraft_version}:${create_fabric_version}")
 
+    modImplementation("com.github.AlphaMode:fakeconfig:master-SNAPSHOT") { exclude(group: "net.fabricmc.fabric-api") }
+    modImplementation("com.github.AlphaMode:fakeconfigtoml:master-SNAPSHOT") { exclude(group: "net.fabricmc.fabric-api") }
+
     // Night core - needed for forge config
-    // implementation "com.electronwill.night-config:core:${night_config_version}"
-    // implementation "com.electronwill.night-config:toml:${night_config_version}"
+    implementation "com.electronwill.night-config:core:${night_config_version}"
+    implementation "com.electronwill.night-config:toml:${night_config_version}"
 
     // Development QOL
     modLocalRuntime("maven.modrinth:lazydfu:${lazydfu_version}")
-    // modLocalRuntime("com.terraformersmc:modmenu:${modmenu_version}")
+    modLocalRuntime("com.terraformersmc:modmenu:${modmenu_version}")
 
     // Recipe Viewers - Create Fabric supports JEI, REI, and EMI.
     // See root gradle.properties to choose which to use at runtime.
