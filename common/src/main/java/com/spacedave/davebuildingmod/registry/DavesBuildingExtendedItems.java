@@ -4,6 +4,7 @@ import com.simibubi.create.foundation.data.CreateRegistrate;
 import com.spacedave.davebuildingmod.DavesBuildingExtended;
 import dev.architectury.injectables.annotations.ExpectPlatform;
 import net.minecraft.world.item.CreativeModeTab;
+import net.minecraft.world.item.DyeColor;
 import net.minecraft.world.item.ItemStack;
 
 import javax.annotation.Nonnull;
@@ -14,7 +15,7 @@ public class DavesBuildingExtendedItems {
         @Override
         @Nonnull
         public ItemStack makeIcon() {
-            return DavesBuildingExtendedBlocks.EXAMPLE_BLOCK.asStack();
+            return DavesBuildingExtendedBlocks.GILDED_BOILERS.get(DyeColor.RED).asStack();
         }
     };
 
